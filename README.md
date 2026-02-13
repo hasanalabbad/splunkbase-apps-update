@@ -1,4 +1,4 @@
-# Splunkbase Apps Manager
+# Splunkbase Apps update
 
 A command-line tool to automate checking for updates and upgrading [Splunkbase](https://splunkbase.splunk.com/) apps on [Splunk Cloud](https://www.splunk.com/en_us/products/splunk-cloud-platform.html) using the [Admin Config Service (ACS) API](https://docs.splunk.com/Documentation/SplunkCloud/latest/Config/ACSAPI).
 
@@ -80,7 +80,7 @@ Use `--force` to bypass all compatibility checks (use with caution).
 
 ```bash
 git clone https://github.com/hasanalabbad/splunkbase-apps-update.git
-cd splunkbase-apps-manager
+cd splunkbase-apps-update
 pip install -r requirements.txt
 ```
 
