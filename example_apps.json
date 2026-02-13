@@ -1,0 +1,85 @@
+{
+  "stack": "my-splunk-stack",
+  "total_apps": 3,
+  "apps": [
+    {
+      "appID": "Splunk_SA_CIM",
+      "label": "Splunk Common Information Model",
+      "name": "Splunk_SA_CIM",
+      "splunkbaseID": "1621",
+      "stateChangeRequiresRestart": false,
+      "status": "installed",
+      "version": "6.3.0",
+      "update_available": false,
+      "available_versions": []
+    },
+    {
+      "appID": "Splunk_Security_Essentials",
+      "label": "Splunk Security Essentials",
+      "name": "Splunk_Security_Essentials",
+      "splunkbaseID": "3435",
+      "stateChangeRequiresRestart": false,
+      "status": "installed",
+      "version": "3.8.0",
+      "update_available": true,
+      "available_versions": [
+        {
+          "id": 12345,
+          "app": 3435,
+          "name": "3.8.2",
+          "product": {
+            "name": "splunk",
+            "display_name": "Splunk"
+          },
+          "release_notes": "",
+          "CIM_versions": ["6.x"],
+          "product_versions": ["9.4", "9.3", "9.2"],
+          "created_datetime": "2025-06-01T00:00:00.000000Z",
+          "published_datetime": "2025-06-05T00:00:00.000000Z",
+          "size": 5000000,
+          "filename": "splunk-security-essentials_382.tgz",
+          "platform": "independent",
+          "install_method_single": "simple",
+          "install_method_distributed": "appmgmt_phase",
+          "cloud_compatible": true,
+          "current_cim_version_compatible": true,
+          "current_splunk_version_compatible": true
+        }
+      ]
+    },
+    {
+      "appID": "lookup_editor",
+      "label": "Splunk App for Lookup File Editing",
+      "name": "lookup_editor",
+      "splunkbaseID": "1724",
+      "stateChangeRequiresRestart": false,
+      "status": "installed",
+      "version": "4.0.5",
+      "update_available": true,
+      "available_versions": [
+        {
+          "id": 67890,
+          "app": 1724,
+          "name": "4.0.6",
+          "product": {
+            "name": "splunk",
+            "display_name": "Splunk"
+          },
+          "release_notes": "https://example.com/release-notes",
+          "CIM_versions": ["6.x"],
+          "product_versions": ["9.4", "9.3", "9.2"],
+          "created_datetime": "2025-09-01T00:00:00.000000Z",
+          "published_datetime": "2025-09-05T00:00:00.000000Z",
+          "size": 7140988,
+          "filename": "splunk-app-for-lookup-file-editing_406.tgz",
+          "platform": "independent",
+          "install_method_single": "simple",
+          "install_method_distributed": "appmgmt_phase",
+          "cloud_compatible": true,
+          "current_cim_version_compatible": true,
+          "current_splunk_version_compatible": true
+        }
+      ]
+    }
+  ]
+}

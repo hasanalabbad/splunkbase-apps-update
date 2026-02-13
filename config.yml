@@ -1,0 +1,16 @@
+# Splunkbase Apps Configuration
+# This file contains configuration settings for managing Splunkbase apps
+
+# Excluded Apps Configuration
+# Apps listed here will be skipped during upgrade operations.
+# Use this to prevent automatic upgrades of critical or sensitive apps.
+excluded_apps:
+  # Format: splunkbase_id (as string) with optional metadata
+  # Example entries (uncomment and modify as needed):
+  # - splunkbase_id: "1621"  # Splunk_SA_CIM
+  #   reason: "Manual upgrade required - critical dependency for other apps"
+  #   excluded_date: "2025-01-15"
+
+  # - splunkbase_id: "3435"  # Splunk Security Essentials
+  #   reason: "Testing compatibility with new Splunk version first"
+  #   excluded_date: "2025-02-01"
